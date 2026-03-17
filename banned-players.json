@@ -1,0 +1,338 @@
+[
+  {
+    "uuid": "9b0084d7-43c6-4774-b119-596a11d2d64a",
+    "name": "CreeperPro1234",
+    "created": "2021-12-12 14:04:41 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "00000000-0000-0000-0009-01f5b4f70cf8",
+    "name": "*MetalMaroJurBru",
+    "created": "2021-12-11 13:04:44 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "88d174e1-08c9-45ed-a394-ef5b5bb8cc92",
+    "name": "groteneus",
+    "created": "2021-12-12 14:36:04 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "1fb0206c-d8d9-4504-9569-b26475ff2956",
+    "name": "Jumpyy",
+    "created": "2021-12-11 12:30:16 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "dcf1373c-db88-39c9-801b-114d088ceb47",
+    "name": "REEMarkmus",
+    "created": "2022-04-07 12:52:57 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "70712f2f-be3d-3b9b-b412-0eb4340c7708",
+    "name": "RikigamerYT1",
+    "created": "2022-04-07 12:52:58 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "885e637f-1f5e-37e9-8a99-11f9dfb82523",
+    "name": "Swe1337",
+    "created": "2022-04-07 12:53:04 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "95e972bb-0894-3a99-b9e1-8dfd4e4920e4",
+    "name": "pigsniffer2561",
+    "created": "2022-04-07 12:53:19 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "e3fc895b-1a57-3287-be8f-8f326c1924cf",
+    "name": "takingover",
+    "created": "2022-04-07 12:53:21 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "bba90d19-a299-4774-a480-45d68d6ee3e5",
+    "name": "RikigamerYT1",
+    "created": "2021-12-11 12:24:44 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "dc0464f6-ca45-47fb-a285-b6cd72c439ac",
+    "name": "cheaterXD",
+    "created": "2021-12-11 13:45:20 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "c67c94aa-0c7f-46a2-9ab3-905edf29fb44",
+    "name": "REEMarkmus",
+    "created": "2021-12-11 13:17:30 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "c7a7f301-7072-42b9-9118-8b0e82dad21e",
+    "name": "BaconBananas",
+    "created": "2021-12-11 14:46:55 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "c4c254aa-1e2f-3627-b46b-922de2a0279b",
+    "name": "jo0ko",
+    "created": "2022-04-07 12:53:14 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "ea1c7699-28ad-3593-a52c-8a8b75c20def",
+    "name": "RoxyFoxy2009",
+    "created": "2022-04-07 12:53:01 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "87e400d1-885b-3a5f-ac01-1d8a289ab9d0",
+    "name": "SnapRan",
+    "created": "2022-04-07 12:53:02 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "91e156c3-4434-3dfe-aace-f4578028ab1a",
+    "name": "xFat",
+    "created": "2022-04-07 12:53:24 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "6a96ead5-2b6e-3ab6-a391-1aa8b7b0d84a",
+    "name": "cheaterXD",
+    "created": "2022-04-07 12:53:10 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "b03fefde-df55-421e-ae75-086a146db73a",
+    "name": "pigsniffer2561",
+    "created": "2021-12-11 13:30:28 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "b23921e4-6a62-4275-b485-afaf29da9f36",
+    "name": "ovuo",
+    "created": "2021-12-12 15:26:14 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "650bf366-b3dc-4a30-b2ba-21d127468c4d",
+    "name": "Remove",
+    "created": "2021-12-13 03:37:58 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "kronieo"
+  },
+  {
+    "uuid": "21a7ec5d-1b4d-3d39-a982-cfc3132a1606",
+    "name": "YIGHT901",
+    "created": "2022-04-07 12:53:06 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "37740303-24f7-347d-8f2b-c06e899751ca",
+    "name": "0Netheritesword",
+    "created": "2022-04-07 12:52:26 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "87836287-0fb2-4b4f-a0bf-7983116985ce",
+    "name": "YIGHT901",
+    "created": "2021-12-12 14:47:46 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "879b6f40-2399-46e8-80ca-76d27e79ae94",
+    "name": "jo0ko",
+    "created": "2021-12-12 15:30:33 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "06b5e936-6d31-403f-ad59-4a439bf6ea83",
+    "name": "0Netheritesword",
+    "created": "2021-12-11 13:11:55 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "e229e924-c0f5-320e-b0c4-8956273ddbe7",
+    "name": "Jumpyy",
+    "created": "2022-04-07 12:52:50 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "68495707-5f1b-3f7d-b0f0-cc8f95f4baac",
+    "name": "manhbatluc",
+    "created": "2022-03-12 04:26:14 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "7d"
+  },
+  {
+    "uuid": "c578f8ff-9088-3615-8f1b-a40b3bc20d68",
+    "name": "CreeperPro1234",
+    "created": "2022-04-07 12:52:44 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "2b85e0f6-e4d2-443d-9e05-6a01e69c694c",
+    "name": "GreenGuardian",
+    "created": "2021-12-11 12:56:01 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "24f63c5b-209d-3192-a460-08f753f0121e",
+    "name": "Chess3030",
+    "created": "2022-04-07 12:52:39 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "cfcf6b0d-218e-4273-b0dc-64900ef71d55",
+    "name": "RoxyFoxy2009",
+    "created": "2021-12-11 14:43:50 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "9e48f8da-e6e7-36f2-a8e6-e37806a53f50",
+    "name": "_Surv",
+    "created": "2022-04-07 12:53:08 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "7aedb6d0-4dcb-4f1c-81bf-d2f7f8f1efa1",
+    "name": "julianviogamer",
+    "created": "2021-12-11 12:33:29 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "2cc7ff46-475f-318e-8676-888866cb53dd",
+    "name": "julianviogamer",
+    "created": "2022-04-07 12:53:15 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "c8d3ebf1-2d9a-4267-88b8-e1102489b397",
+    "name": "SnapRan",
+    "created": "2021-12-11 13:33:40 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "8a6b884e-53ac-3f10-bdd2-b9121b94b4f0",
+    "name": "GreenGuardian",
+    "created": "2022-04-07 12:52:49 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "f6e3feb0-bceb-3c74-9b8e-f273dccdfded",
+    "name": "groteneus",
+    "created": "2022-04-07 12:53:12 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "e4711328-3e7b-4d49-b2c4-443011906ba9",
+    "name": "OlanaPlays",
+    "created": "2021-12-12 14:43:22 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "842f2985-5dc2-4c6d-aa91-73c3823120ec",
+    "name": "_Surv",
+    "created": "2021-12-11 13:16:16 +0000",
+    "source": "Destr0ing",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "5533cc53-5a3c-34ed-b971-bbf781543a8c",
+    "name": "OlanaPlays",
+    "created": "2022-04-07 12:52:52 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  },
+  {
+    "uuid": "99a7ea78-0f80-3079-a576-cef3f55191d6",
+    "name": "BaconBananas",
+    "created": "2022-04-07 12:52:33 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "You were banned by an Operator using the Fork Server Manager."
+  }
+]
