@@ -1,0 +1,251 @@
+[14:24:21] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:24:28] [ServerMain/INFO]: Loaded 7 recipes
+[14:24:30] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[14:24:30] [Server thread/INFO]: Loading properties
+[14:24:30] [Server thread/INFO]: This server is running Paper version git-Paper-176 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 517f8fb)
+[14:24:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:24:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:24:34] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[14:24:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[14:24:36] [Server thread/INFO]: Default game type: SURVIVAL
+[14:24:36] [Server thread/INFO]: Generating keypair
+[14:24:37] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25866
+[14:24:37] [Server thread/INFO]: Using epoll channel type
+[14:24:38] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:24:38] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[14:24:42] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[14:24:55] [Server thread/WARN]: Legacy plugin SimpleTpa v6.3 does not specify an api-version.
+[14:24:55] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.7.0
+[14:24:55] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
+[14:24:56] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:24:57] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[14:24:57] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[14:24:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:24:59] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.7.0
+[14:24:59] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.12
+[14:24:59] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v6.3
+[14:24:59] [Server thread/INFO]: [FMCS-ASSISTANT] Loading server plugin FMCSAssistant v1.8
+[14:24:59] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v2.0.3
+[14:24:59] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[14:24:59] [Server thread/WARN]: Server permissions file permissions.yml is not valid YAML.
+org.yaml.snakeyaml.error.YAMLException: java.nio.charset.MalformedInputException: Input length = 1
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:214) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:172) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:167) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.reader.StreamReader.peek(StreamReader.java:122) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanToNextToken(ScannerImpl.java:1204) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:320) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:238) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseImplicitDocumentStart.produce(ParserImpl.java:212) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:162) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:152) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:156) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:434) ~[snakeyaml-2.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadCustomPermissions(CraftServer.java:1194) ~[paper-1.20.1.jar:git-Paper-176]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:544) ~[paper-1.20.1.jar:git-Paper-176]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[paper-1.20.1.jar:git-Paper-176]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-176]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-176]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.nio.charset.CoderResult.throwException(CoderResult.java:274) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at org.yaml.snakeyaml.reader.UnicodeReader.read(UnicodeReader.java:118) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:179) ~[snakeyaml-2.0.jar:?]
+	... 19 more
+[14:24:59] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.3
+[14:24:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:24:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:24:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:24:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:24:59] [Server thread/INFO]: Preparing level "world"
+[14:25:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:25:03] [Server thread/INFO]: Time elapsed: 1403 ms
+[14:25:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:25:03] [Server thread/INFO]: Time elapsed: 498 ms
+[14:25:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:25:03] [Server thread/INFO]: Time elapsed: 199 ms
+[14:25:03] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
+[14:25:03] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20 (763)
+[14:25:05] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
+[14:25:05] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[14:25:08] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using MappingSpigotSkinRefresher.
+[14:25:11] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[14:25:12] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[14:25:12] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.3*
+[14:25:12] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[14:25:12] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 6.3
+[14:25:12] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[14:25:12] [Server thread/ERROR]: Error occurred while enabling SimpleTpa v6.3 (Is it up to date?)
+java.lang.IllegalArgumentException: v1_20_R1 isn't a known version! Please contact me in my discord support server! https://discord.com/invite/SZUkza9
+	at me.mulemuledupe.simpletpa.SimpleTpa.formatNMSVersion(SimpleTpa.java:160) ~[SimpleTpa.jar:?]
+	at me.mulemuledupe.simpletpa.SimpleTpa.onEnable(SimpleTpa.java:55) ~[SimpleTpa.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-176]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-176]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.20.1.jar:git-Paper-176]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551) ~[paper-1.20.1.jar:git-Paper-176]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:635) ~[paper-1.20.1.jar:git-Paper-176]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:434) ~[paper-1.20.1.jar:git-Paper-176]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.1.jar:git-Paper-176]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-176]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-176]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[14:25:12] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.3
+[14:25:12] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[14:25:12] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 6.3
+[14:25:12] [Server thread/INFO]: [FMCS-ASSISTANT] Enabling FMCSAssistant v1.8
+[14:25:12] [Server thread/INFO]: [FMCS-ASSISTANT] Checking for updates...
+[14:25:13] [Server thread/INFO]: [FMCS-ASSISTANT] Received remote version: 1.8
+[14:25:13] [Server thread/INFO]: [FMCS-ASSISTANT] You are already running the latest version
+[14:25:13] [Server thread/INFO]: [FMCS-ASSISTANT] Plugin loading...
+[14:25:13] [Server thread/INFO]: [FMCS-ASSISTANT] Plugin config looks right
+[14:25:13] [Server thread/INFO]: [FMCS-ASSISTANT] This server is configured as server 946558
+[14:25:13] [Server thread/INFO]: [FMCS-ASSISTANT] Testing credentials...
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Authentication accepted!
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] =============================
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT]  ++ Server Information ++
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Server ID: 946558
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Server Name: AstralMC
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Server Memory: 384
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Server Latest Renew: 2023-09-12 20:22:15
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Server Type: High Memory
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Server Plan: Free
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Server CPU Quota: 1024
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Server CPU Share: 0.7
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Server Jar: PaperMC (1.20.1)
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Server Environment: java17
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Server Hibernation: true
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] =============================
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Renewal warnings are enabled in the config
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Will check remaining time every 5 minutes and warn if less than 15 minutes
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Telemetry is enabled, telemetry data will be sent every 60 seconds
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Spindown warnings are enabled in the config
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Will check for node change (node spindown) every 5 minutes and warn if a node change will happen in less than 15 minutes
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] This server is will hibernate if there are no online players
+[14:25:16] [Server thread/INFO]: [FMCS-ASSISTANT] Enabling metrics
+[14:25:16] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[14:25:16] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[14:25:17] [Server thread/INFO]: [ClearLag] Loading modules...
+[14:25:17] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[14:25:17] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[14:25:17] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[14:25:17] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[14:25:17] [Thread-14/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[14:25:17] [Thread-14/INFO]: [ClearLag] No updates found!
+[14:25:18] [Server thread/INFO]: Running delayed init tasks
+[14:25:18] [Server thread/INFO]: [FMCS-ASSISTANT] Server is now hibernating - You can safely ignore the "Can't keep up messages" and low TPS, the server will return to normal once a player joins
+[14:25:18] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[14:25:19] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:25:19] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[14:25:19] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[14:25:19] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[14:25:19] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[14:25:19] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[14:25:19] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:25:19] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.2.12
+[14:25:19] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[14:25:19] [Craft Scheduler Thread - 6 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:25:19] [Server thread/INFO]: Done (49.300s)! For help, type "help"
+[14:25:19] [Server thread/INFO]: Timings Reset
+[14:25:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5863ms or 117 ticks behind
+[14:29:03] [User Authenticator #0/INFO]: UUID of player ernasti is 687c43a1-3cf8-37dd-bf08-0ab34301b789
+[14:29:04] [Server thread/INFO]: ernasti joined the game
+[14:29:04] [Server thread/INFO]: ernasti[/14.191.71.183:18452] logged in with entity id 218 at ([world]8571.736431988897, 64.0625, -431.47210695575063)
+[14:29:05] [Server thread/INFO]: [FMCS-ASSISTANT] Server stopped hibernating
+[14:29:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 214601ms or 4292 ticks behind
+[14:33:09] [Server thread/INFO]: ernasti lost connection: Disconnected
+[14:33:10] [Server thread/INFO]: ernasti left the game
+[14:33:10] [Server thread/INFO]: [FMCS-ASSISTANT] Server is now hibernating - You can safely ignore the "Can't keep up messages" and low TPS, the server will return to normal once a player joins
+[14:33:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5953ms or 119 ticks behind
+[14:43:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574621ms or 11492 ticks behind
+[14:53:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574475ms or 11489 ticks behind
+[15:03:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574375ms or 11487 ticks behind
+[15:11:00] [User Authenticator #1/INFO]: UUID of player Nnosami is a51a21a1-66a8-3e4c-90ed-60328258d2a4
+[15:11:00] [Server thread/INFO]: Nnosami joined the game
+[15:11:00] [Server thread/INFO]: Nnosami[/82.149.23.245:61434] logged in with entity id 1548 at ([world]-214.5, 63.0, 79.5)
+[15:11:00] [Server thread/INFO]: [FMCS-ASSISTANT] Server stopped hibernating
+[15:11:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 424364ms or 8487 ticks behind
+[15:13:25] [Server thread/INFO]: Nnosami has made the advancement [Stone Age]
+[15:14:03] [Server thread/INFO]: Nnosami has made the advancement [Getting an Upgrade]
+[15:15:37] [Server thread/INFO]: Nnosami has made the advancement [Monster Hunter]
+[15:18:17] [Server thread/INFO]: Nnosami has made the advancement [Sweet Dreams]
+[15:18:45] [Server thread/INFO]: Nnosami was shot by Skeleton
+[15:20:23] [Server thread/INFO]: Nnosami lost connection: Disconnected
+[15:20:23] [Server thread/INFO]: Nnosami left the game
+[15:20:24] [Server thread/INFO]: [FMCS-ASSISTANT] Server is now hibernating - You can safely ignore the "Can't keep up messages" and low TPS, the server will return to normal once a player joins
+[15:20:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5771ms or 115 ticks behind
+[15:30:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574539ms or 11490 ticks behind
+[15:40:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574475ms or 11489 ticks behind
+[15:50:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574339ms or 11486 ticks behind
+[16:00:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574405ms or 11488 ticks behind
+[16:10:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574340ms or 11486 ticks behind
+[16:20:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574382ms or 11487 ticks behind
+[16:31:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574368ms or 11487 ticks behind
+[16:41:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574231ms or 11484 ticks behind
+[16:51:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574382ms or 11487 ticks behind
+[17:01:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574301ms or 11486 ticks behind
+[17:11:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574430ms or 11488 ticks behind
+[17:21:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574308ms or 11486 ticks behind
+[17:31:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574357ms or 11487 ticks behind
+[17:41:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574240ms or 11484 ticks behind
+[17:51:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574421ms or 11488 ticks behind
+[18:01:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574339ms or 11486 ticks behind
+[18:11:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574302ms or 11486 ticks behind
+[18:21:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574322ms or 11486 ticks behind
+[18:31:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574365ms or 11487 ticks behind
+[18:41:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574431ms or 11488 ticks behind
+[18:52:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574202ms or 11484 ticks behind
+[19:02:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574285ms or 11485 ticks behind
+[19:12:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574236ms or 11484 ticks behind
+[19:22:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574228ms or 11484 ticks behind
+[19:32:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574155ms or 11483 ticks behind
+[19:42:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574248ms or 11484 ticks behind
+[19:52:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574211ms or 11484 ticks behind
+[20:02:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574179ms or 11483 ticks behind
+[20:12:15] [Craft Scheduler Thread - 105 - FMCSAssistant/INFO]: This server will expire in 9 minutes, please renew it in https://freemcserver.net/server/946558
+[20:12:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574103ms or 11482 ticks behind
+[20:22:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 574118ms or 11482 ticks behind
+[20:25:02] [Server thread/INFO]: Stopping the server
+[20:25:02] [Server thread/INFO]: Stopping server
+[20:25:02] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[20:25:02] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[20:25:02] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.3
+[20:25:02] [Server thread/INFO]: [FMCS-ASSISTANT] Disabling FMCSAssistant v1.8
+[20:25:02] [Server thread/INFO]: [FMCS-ASSISTANT] Received remote version: 1.8
+[20:25:02] [Server thread/INFO]: [FMCS-ASSISTANT] You are already running the latest version
+[20:25:02] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+[20:25:02] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
+[20:25:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
+[20:25:02] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[20:25:02] [Server thread/INFO]: Saving players
+[20:25:03] [Server thread/INFO]: Saving worlds
+[20:25:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:25:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:25:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:25:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:25:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 162 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[20:25:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:25:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:25:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:25:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:25:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:25:03] [Server thread/INFO]: [ChunkHolderManager] Saved 55 block chunks, 64 entity chunks, 0 poi chunks in world 'world_nether' in 0.28s
+[20:25:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:25:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:25:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:25:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:25:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:25:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 53 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[20:25:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:25:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:25:03] [Server thread/INFO]: Flushing Chunk IO
+[20:25:03] [Server thread/INFO]: Closing Thread Pool
+[20:25:03] [Server thread/INFO]: Closing Server
